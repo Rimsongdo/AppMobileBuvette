@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, Alert, Dimensions } from 'react-native';
 
 const { width, height } = Dimensions.get('window');
-const ip='192.168.80.34'
+const ip='192.168.60.194'
 const Password = () => {
     const [id, setId] = useState('');
     const [oldPassword, setOldPassword] = useState('');

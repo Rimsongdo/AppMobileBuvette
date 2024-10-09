@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { View, TextInput, FlatList, Text, StyleSheet, Image, Dimensions, Pressable,TouchableOpacity,Alert } from 'react-native';
 const { width, height } = Dimensions.get('window');
 const closeIcon = require('../src/cross.png');
-const ip='192.168.80.34'
+const ip='192.168.60.194'
 const Filter = () => {
   const [filter, setFilter] = useState('');
   const [fruits, setFruits] = useState([]);

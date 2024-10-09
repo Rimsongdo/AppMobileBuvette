@@ -13,7 +13,7 @@ const Home = ({ navigation }) => {
   const [others,setOthers]=useState([])
   const [selectedProduct, setSelectedProduct] = useState(null);
   
-  const ip='192.168.80.34'
+  const ip='192.168.60.194'
   const product=useSelector((state) => state.product.selectedItemId)
   useEffect(() => {
     const fetchProducts = async () => {

@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const { width, height } = Dimensions.get('window');
-const ip='192.168.80.34';
+const ip='192.168.60.194';
 
 const Panier = () => {
     const [panier, setPanier] = useState([]);

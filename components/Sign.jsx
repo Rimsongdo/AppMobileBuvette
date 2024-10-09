@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, Alert, useWindowDimensions, Pressable, TouchableOpacity,Dimensions } from 'react-native';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
-const ip='192.168.80.34'
+const ip='192.168.60.194'
 const validationSchema = Yup.object().shape({
   name: Yup.string().required('Required'),
   username: Yup.string().required('Required'),

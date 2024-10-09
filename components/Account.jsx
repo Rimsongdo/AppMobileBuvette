@@ -2,7 +2,7 @@ import React, { useState,useEffect } from 'react';
 import { StyleSheet, Text, View, Image, FlatList, Dimensions, TouchableOpacity, Pressable } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 // Get window dimensions
-const ip='192.168.80.34'
+const ip='192.168.60.194'
 const { width, height } = Dimensions.get('window');
 const signout=require('../src/logout.webp')
 const Account= ({navigation})=>{

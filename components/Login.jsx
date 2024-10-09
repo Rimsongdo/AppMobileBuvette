@@ -4,7 +4,7 @@ import { Formik } from 'formik';
 import * as Yup from 'yup';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import CheckBox from '@react-native-community/checkbox';
-const ip='192.168.80.34'
+const ip='192.168.60.194'
 const validationSchema = Yup.object().shape({
   id: Yup.string().required('Required'),
   password: Yup.string().required('Required'),

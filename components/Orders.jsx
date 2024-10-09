@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, FlatList, Dimensions, Pressable } from 'react-n
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import RNHTMLtoPDF from 'react-native-html-to-pdf';
 
-const ip = '192.168.80.34';
+const ip = '192.168.60.194';
 const { width, height } = Dimensions.get('window');
 
 const Orders = () => {

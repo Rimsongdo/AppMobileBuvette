@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, Dimensions, Pressable, TextInput, Alert } from 'react-native';
-const ip='192.168.80.34'
+const ip='192.168.60.194'
 // Get window dimensions
 const { width, height } = Dimensions.get('window');
 
